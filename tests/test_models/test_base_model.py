@@ -1,5 +1,6 @@
 #!/bin/usr/python3
 
+import os
 import unittest
 from models.base_model import BaseModel
 

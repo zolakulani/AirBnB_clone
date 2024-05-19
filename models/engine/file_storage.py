@@ -3,6 +3,7 @@
 import json
 import os
 from models.base_model import BaseModel
+from os.path import exists
 
 
 class FileStorage:
