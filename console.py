@@ -15,6 +15,8 @@ class HBNBCommand(cmd.Cmd):
         """Exit the program on EOF (Ctrl-D)"""
         print()
         return True
+    def emptyline(self):
+        pass
 
     # Add other commands and functionality as needed
 
